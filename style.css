@@ -3,8 +3,33 @@ body {
 }
 
 .submit-area {
+  margin-top: 50px;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px grey;
+}
 
+.deposit{
+  background-color: slateblue;
+}
+
+.withdraw{
+  background-color: lightsalmon;
+}
+
+.balance{
+  background-color: orange;
+}
+
+.box{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding:20px ;
+}
+
+#transaction-area{
+  display: none;
 }
